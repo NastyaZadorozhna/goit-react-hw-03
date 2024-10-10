@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid rgb(112, 112, 112);
+    width: 300px;
+    margin: 0;
+}
+
+.btn {
+    border-radius: 4px;
+    background-color: rgb(241, 239, 239);
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.contactPar {
+    margin: 5px;
+    color: black;
+}
+
+.icon {
+    margin-right: 10px;
+}

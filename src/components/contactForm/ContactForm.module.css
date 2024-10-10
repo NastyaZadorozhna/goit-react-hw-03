@@ -1,0 +1,40 @@
+.form{
+    display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 400px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 2px solid black;
+  margin-bottom: 15px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .text {
+    text-align: left;
+    font-weight: 600;
+  }
+  
+  .input {
+    padding: 5px 10px;
+  }
+  
+  .btn {
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 4px;
+    background-color: rgb(241, 239, 239);
+  }
+  
+  .errorMessage {
+    color: red;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 200;
+  }
